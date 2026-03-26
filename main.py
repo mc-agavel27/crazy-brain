@@ -24,4 +24,3 @@ while(True):
         motor.run(10000)
     else:
         motor.run(0)
-        
