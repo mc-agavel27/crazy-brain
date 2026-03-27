@@ -28,7 +28,7 @@ def activate():
     car.run(10000)
 
     while(True):
-        ev3.screen.print("Dist: " + str(distance) + " mm")
+        ev3.screen.print("Dist: " + str(get_distance()) + " mm")
         if get_distance() <= 300:
             weapon_systems(True)
         else:
